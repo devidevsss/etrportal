@@ -11,7 +11,7 @@ import {
 } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 
-const LoginScreen = () => {
+const Dashboard = () => {
   const [searchText, setSearchText] = useState("");
   const navigation = useNavigation();
   const handleClearSearch = () => {
@@ -215,4 +215,4 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
 });
-export default LoginScreen;
+export default Dashboard;
